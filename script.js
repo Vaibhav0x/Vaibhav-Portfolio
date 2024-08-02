@@ -1,20 +1,43 @@
 console.log('its working');
 let theme = localStorage.getItem('theme');
 
+let dots=document.getElementsByClassName('browser-dot')
+for(let i=0;i<dots.length;i++){
+    dots[i].addEventListener('click',function(){
+        let mode = this.dataset.mode;
+        setDots(mode)
+    })
+}
+
+//it sets the dots color
+function setDots(mode) {
+    if (mode == 'green') {
+        document.getElementById('theme-style').href = 'green.css';
+    } else if (mode == 'blue') {
+        document.getElementById('theme-style').href = 'blue.css';
+    } else if (mode == 'purple') {
+        document.getElementById('theme-style').href = 'purple.css';
+    }
+    localStorage.setItems('theme', mode);
+}
+
+let themeDots = document.getElementsByClassName('theme-dot');
+
+for (let i = 0; themeDots.length > i; i++) {
+    themeDots[i].addEventListener('click', function() {
+        let mode = this.dataset.mode;
+        setTheme(mode);
+    });
+}
+
+
 if (theme == null) {
     setTheme('light');
 } else {
     setTheme(theme);
 }
 
-let themeDots = document.getElementsByClassName('theme-dot');
 
-for (var i = 0; themeDots.length > i; i++) {
-    themeDots[i].addEventListener('click', function() {
-        let mode = this.dataset.mode;
-        setTheme(mode);
-    });
-}
 
 function setTheme(mode) {
     if (mode == 'light') {
