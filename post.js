@@ -37,6 +37,30 @@ document.addEventListener('DOMContentLoaded', function() {
             "images": ["images/auris1.png", "images/auris2.png","images/auris3.png","images/auris4.png","images/auris5.png"]
         },
         {
+            "title": "Spotify Clone",
+            "description": "I developed a Spotify clone using React.js, JavaScript, and Tailwind CSS to replicate the core functionalities and user interface of the popular music streaming service. This project showcases my ability to build dynamic, responsive web applications with modern front-end technologies.React.js: Leveraged the power of React.js for efficient component-based architecture, ensuring smooth and fast user interactions.JavaScript: Implemented key features such as music playback, playlist management, and user authentication, emphasizing my proficiency in JavaScript.Tailwind CSS: Used Tailwind CSS to create a clean, responsive UI that mirrors Spotify's design, with a focus on user experience and accessibility.",
+            "projectLinks": {
+            "repository": "https://github.com/Vaibhav0x/Spotify-Clone",
+            "website": "https://vaibhav-spotify-clone.netlify.app/"
+            },
+            "languages": "ReactJs: Leveraged the power of React.js for efficient component-based architecture, ensuring smooth and fast user interactions. JavaScript: Implemented key features such as music playback, playlist management, and user authentication, emphasizing my proficiency in JavaScript. Tailwind CSS: Used Tailwind CSS to create a clean, responsive UI that mirrors Spotify's design, with a focus on user experience and accessibility",
+            "work": "",
+            "limitations": "",
+            "images": []
+        },
+        {
+            "title": "BurNCode",
+            "description": "I created a versatile Code Editor using React.js, JavaScript, Chakra UI, and the Piston API to provide a seamless coding experience directly in the browser. This project highlights my expertise in building interactive and responsive applications with modern web technologies. React.js: Utilized React.js to manage the editor's state and component structure, enabling efficient code execution and rendering. JavaScript: Implemented core functionalities, including syntax highlighting, code execution, and error handling, showcasing my JavaScript proficiency. Chakra UI: Designed the user interface with Chakra UI, ensuring a clean, accessible, and responsive design that enhances user interaction. Piston API: Integrated the Piston API to support multiple programming languages, allowing users to write, execute, and test code within the editor",
+            "projectLinks": {
+            "repository": "https://github.com/Vaibhav0x/CodeEditor",
+            "website": "https://burncode.netlify.app/"
+            },
+            "languages": "ReactJs: Utilized React.js to manage the editor's state and component structure, enabling efficient code execution and rendering. JavaScript: Implemented core functionalities, including syntax highlighting, code execution, and error handling, showcasing my JavaScript proficiency. Chakra-Ui: Designed the user interface with Chakra UI, ensuring a clean, accessible, and responsive design that enhances user interaction. Piston-API: Integrated the Piston API to support multiple programming languages, allowing users to write, execute, and test code within the editor.",
+            "work": "",
+            "limitations": "",
+            "images": []
+        },
+        {
             "title": "Rock Paper Scissors",
             "description": "The Rock, Paper, Scissors Game is a web-based interactive application developed using JavaScript, HTML, and CSS. This project allows users to play the classic game against the computer through a clean and responsive user interface. It implements the fundamental game logic to determine the winner based on the user's and the computer's choices.",
             "projectLinks": {

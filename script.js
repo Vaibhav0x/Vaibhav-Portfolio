@@ -57,6 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { "title": "TransVox Transcription System" },
         { "title": "Movie Recommendation System" },
         { "title": "Desktop Voice Assistant" },
+        {"title": "Spotify Clone"},
+        {"title": "BurNCode"},
         { "title": "Rock Paper Scissors" },
         { "title": "Tic Tac Toe Game" },
         { "title": "Titanic Survival Prediction" }
