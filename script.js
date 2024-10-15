@@ -54,6 +54,7 @@ function setTheme(mode) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
+        { "title": "Rweet: Social Media WebApp" },
         { "title": "TransVox Transcription System" },
         { "title": "Movie Recommendation System" },
         { "title": "Desktop Voice Assistant" },

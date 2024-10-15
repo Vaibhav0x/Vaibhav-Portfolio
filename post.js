@@ -1,6 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
         {
+            "title": "Rweet: A Django Based Social Media Web App",
+            "description": "Developed a web application using Python, Django, Bootstrap, PostgreSQL, HTML, and CSS that allows users to create, share, and manage 'Rweets,' similar to tweets. The application features a comprehensive user authentication system, including registration, login, and password reset functionality. Users can create, edit, and delete their Rweets, with the ability to upload images alongside each post. The interface is designed to be fully responsive, ensuring a seamless experience on both mobile and desktop devices. An email service was integrated to facilitate secure password recovery, and Django's built-in models and forms were utilized to ensure secure and efficient data handling. I managed both the front-end and back-end development, focusing on scalability and performance throughout the project.",
+            "projectLinks": {
+            "repository": "https://github.com/Vaibhav0x/TweetBlog",
+            "website": ""
+            },
+            "languages": "Python: The core programming language used for developing the application. Django: The web framework utilized to build the server-side logic and manage data. HTML & CSS: Used for structuring and styling the front end. Bootstrap: A framework that facilitates responsive design for both mobile and desktop views.",
+            "work": "The Rweets web application allows users to create, share, and manage 'Rweets' similar to tweets. The application features a robust user authentication system, enabling secure registration, login, and password reset. Users can create, edit, and delete Rweets while uploading images to enhance their posts. The user interface is designed to be fully responsive, ensuring a seamless experience across various devices. The application efficiently handles data using Django’s built-in models and forms, promoting secure data management and retrieval.",
+            "limitations": "Despite its comprehensive features, the Rweets application has some limitations. Performance may vary based on server resources, particularly during high traffic. Additionally, the application depends on Django’s capabilities and external libraries for certain functionalities, which might introduce constraints on scalability or customization. Lastly, users may encounter occasional delays in data processing during peak usage times.",
+            "images": []
+        },
+        {
             "title": "TransVox Transcription System",
             "description": "The Desktop Voice Assistant is a comprehensive application developed using Python and PyQt5, featuring three main modules: TranslateXpress, SoundToScript, and ScriptToSound. This project aims to enhance accessibility and usability by providing seamless translation, voice-to-text transcription, and text-to-voice generation capabilities.",
             "projectLinks": {
